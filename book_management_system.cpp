@@ -26,9 +26,9 @@ public:
     }
     void add();                         // member function
     friend void update_price(book b[]); // friend function
-    friend void update(book b[]);
-    friend void display(book b[]);
-    friend void sell(book b[]);
+    friend void update(book b[]);  // friend function
+    friend void display(book b[]);  // friend function
+    friend void sell(book b[]);  // friend function
 };
 void book::add()//scope resolution operator
 {
